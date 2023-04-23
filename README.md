@@ -18,6 +18,15 @@ WFS system architecture involves identifying the components and their interactio
 
 ## WFS technology stack
 We selected the following WFS technology stack that will be used to implement the application. This includes selecting programming languages, frameworks, libraries, and tools based on the WFS requirements and the WFS system architecture
+* Java SE 17
+* Spring Boot 3.0.6
+* Maven 3.8.6
+
+Other associated technologies from Spring Cloud
+* Spring Cloud Gateway
+* Spring Cloud Config
+* Spring Cloud Circuit Breaker
+* Spring Cloud Contract
 
 ## WFS Maven Project Structure
 WFS Rest API application is a multi-module Maven project that contains more than one module or sub-project. The main benefit of using a multi-module Maven project is that it allows you to divide a large project into smaller, more manageable modules. Each module can have its own dependencies, build configurations, and release cycles, which makes it easier to manage and maintain the project `weather-forecast-service`.  <br>Here is the maven project structure : 

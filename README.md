@@ -16,6 +16,9 @@ A weather REST API application should provide accurate, reliable, and timely wea
 ## WFS System architecture
 WFS system architecture involves identifying the components and their interactions. This includes defining the logical and physical architecture, as well as selecting the appropriate deployment and integration strategies.
 
+## WFS technology stack
+We selected the following WRR technology stack that will be used to implement the application. This includes selecting programming languages, frameworks, libraries, and tools based on the WRR requirements and the WRR system architecture
+
 ## WFS Maven Project Structure
 WFS Rest API application is a multi-module Maven project that contains more than one module or sub-project. The main benefit of using a multi-module Maven project is that it allows you to divide a large project into smaller, more manageable modules. Each module can have its own dependencies, build configurations, and release cycles, which makes it easier to manage and maintain the project `weather-forecast-service`.  <br>Here is the maven project structure : 
 ```bash

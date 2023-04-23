@@ -1,6 +1,18 @@
 # Weather Forecast Service (WFS)
 `weather-forecast-service` is a weather rest api application that provides current weather information and forecasts for various locations.
 
+## WFS Requrements (functional & non-functional)
+A weather REST API application should provide accurate, reliable, and timely weather data to its users, while also implementing security and performance best practices to ensure that it is scalable, secure, and easy to use. Some of the specific requirements for this application is based upon are as follows : 
+
+1. Accurate weather data: The most important requirement for a weather REST API application is to provide accurate and up-to-date weather data to its users. This includes current temperature, precipitation, wind speed and direction, humidity, and other weather-related metrics.
+2. Geolocation support: The API should support geolocation-based queries, which allow users to retrieve weather data for a specific location based on its latitude and longitude coordinates.
+3. Historical weather data: The API should be able to provide historical weather data for a specific location, which allows users to analyze trends and patterns over time.
+4. Data format: The API should provide weather data in a standard format, such as JSON or XML, which makes it easy for developers to integrate the API into their applications.
+5. Authentication and authorization: The API should support authentication and authorization mechanisms to ensure that only authorized users can access the weather data.
+6. Rate limiting: The API should implement rate limiting to prevent users from making too many requests too quickly, which can overload the API and impact its performance.
+7. Documentation: The API should provide comprehensive documentation that describes the available endpoints, parameters, and response formats, as well as guidelines for using the API and best practices for integrating it into applications.
+8. Scalability and availability: The API should be designed to be scalable and highly available, with redundant servers and load balancing mechanisms to ensure that it can handle large volumes of requests and provide consistent performance.
+
 ## WFS Maven Project Structure
 WFS Rest API application is a multi-module Maven project that contains more than one module or sub-project. The main benefit of using a multi-module Maven project is that it allows you to divide a large project into smaller, more manageable modules. Each module can have its own dependencies, build configurations, and release cycles, which makes it easier to manage and maintain the project `weather-forecast-service`.  <br>Here is the maven project structure : 
 ```bash

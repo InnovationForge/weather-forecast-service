@@ -2,7 +2,7 @@
 `weather-forecast-service` is a weather rest api application that provides current weather information and forecasts for various locations.
 
 ## WFS Maven Project Structure
-WFS Rest API application is a multi-module Maven project that contains more than one module or sub-project. The main benefit of using a multi-module Maven project is that it allows you to divide a large project into smaller, more manageable modules. Each module can have its own dependencies, build configurations, and release cycles, which makes it easier to manage and maintain the project `weather-forecast-service`.  Here is the maven project structure : 
+WFS Rest API application is a multi-module Maven project that contains more than one module or sub-project. The main benefit of using a multi-module Maven project is that it allows you to divide a large project into smaller, more manageable modules. Each module can have its own dependencies, build configurations, and release cycles, which makes it easier to manage and maintain the project `weather-forecast-service`.  <br>Here is the maven project structure : 
 ```bash
 weather-forecast-service
     ├───wfs-application

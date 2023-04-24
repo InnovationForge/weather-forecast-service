@@ -16,6 +16,18 @@ A weather REST API application should provide accurate, reliable, and timely wea
 ## WFS System architecture
 WFS system architecture involves identifying the components and their interactions. This includes defining the logical and physical architecture, as well as selecting the appropriate deployment and integration strategies.
 
+```mermaid
+sequenceDiagram
+	Consumer->>WFS Gateway Server: Search Weather for city Amsterdam Request
+    WFS Gateway Server->>WFS Application: Search Weather for city Amsterdam request
+    WFS Application->>WFS Stub Server: Get geo location of Amsterdam request
+    WFS Stub Server->>WFS Application: Get geo location of Amsterdam response
+    WFS Application->>WFS Stub Server: Get hourly weather info of Amsterdam request
+    WFS Stub Server->>WFS Application: Get hourly weather info of Amsterdam response
+    WFS Application->>WFS Gateway Server: Search Weather for city Amsterdam response
+    WFS Gateway Server->>Consumer: Search Weather for city Amsterdam response
+```
+
 ## WFS Technology stack
 We selected the following WFS technology stack that will be used to implement the application. This includes selecting programming languages, frameworks, libraries, and tools based on the WFS requirements and the WFS system architecture
 * Java SE 17

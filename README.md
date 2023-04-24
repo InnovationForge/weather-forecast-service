@@ -1,5 +1,5 @@
 # Weather Forecast Service (WFS)
-`weather-forecast-service` is a weather rest api application that provides current weather information and forecasts for various locations.
+`weather-forecast-service` is a rest api application that provides current weather information and forecasts for various locations.
 
 ## WFS Requrements (functional & non-functional)
 A weather REST API application should provide accurate, reliable, and timely weather data to its users, while also implementing security and performance best practices to ensure that it is scalable, secure, and easy to use. Some of the specific requirements for this application is based upon are as follows : 
